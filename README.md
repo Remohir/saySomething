@@ -3,8 +3,10 @@
 Do you want to say something, but not really? Just write it in here and see it pop up.
 
 
-
 ## What I want to do:
+
+Create a website with a pitch black background where users can enter a message. This message will be displayed in random places of the page. Position, size and lenght as well as frecuency will be also random. The messages need to be checked for crosswords, insults and things I don´t want hanging on my site.
+
 
 ### First of all
 - Take the input.
