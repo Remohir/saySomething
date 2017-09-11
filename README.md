@@ -26,4 +26,5 @@ Create a website with a pitch black background where users can enter a message. 
 - If array1.length is 0, repeat using array2.
 - Make sure that when introducing the new input, it doesn't switch from array2 to array1 because array1.length is bigger than 0.
 
-- EXTRA: Make it responsive
+
+EXTRA: Make it responsive
