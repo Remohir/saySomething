@@ -5,7 +5,7 @@ var arr2 = [];
 
 function play() {
 	value.addEventListener("keydown", function(e) {	
-		if(e.which == 13 || e.keyCode == 13) {
+		if((e.which == 13 || e.keyCode == 13) && (value.value != "")) {
 			e.preventDefault();
 			arr1.push(value.value);
 			console.log(arr1);
