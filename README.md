@@ -8,6 +8,7 @@ Do you want to say something, but not really? Just write it in here and see it p
 
 ### First of all
 - Take the input.
+- Limit input's length and maybe add a small counter which colour will be whiter the closer the remaining characters get close to zero.
 - Push it to an array1.
 - Empty the input.
 - BONUS: Move the S up while making it smaller.

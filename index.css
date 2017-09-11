@@ -7,6 +7,7 @@ body {
 h1 {
 	font-size: 4em;
 	margin-top: 10%;
+	text-decoration: underline;
 }
 
 input {
@@ -15,5 +16,32 @@ input {
 	color: white;
 	background: black;
 	padding: 0.3em;
-	
+
+}
+
+input:focus {
+	outline: none;
+}
+
+footer {
+	color: #999;
+	vertical-align: text-bottom;
+	margin-bottom: 0%;
+	position: absolute;
+	width: 99%;
+	bottom: 1em;
+	overflow: hidden;
+}
+
+a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+#show {
+	font-family: sans-serif;
+	color: red;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1.2px;
 }
