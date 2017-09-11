@@ -33,6 +33,11 @@ footer {
 	overflow: hidden;
 }
 
+footer div {
+	display: inline-block;
+	margin: auto 10%;
+}
+
 a {
 	color: #ddd;
 	text-decoration: none;

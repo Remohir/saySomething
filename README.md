@@ -13,6 +13,8 @@ Create a website with a pitch black background where users can enter a message. 
 - Limit input's length and maybe add a small counter which colour will be whiter the closer the remaining characters get close to zero.
 - Push it to an array1.
 - Empty the input.
+- Add some information in the footer about how to interact with the page. It will show up in a small pop up.
+- Also add some info about the project such as motivation and the link to GitHub's repo.
 - BONUS: Move the S up while making it smaller.
 
 ### Displaying the stuff
@@ -23,3 +25,5 @@ Create a website with a pitch black background where users can enter a message. 
 - Take the item array1[random_number] out of the array1 and push it to array2.
 - If array1.length is 0, repeat using array2.
 - Make sure that when introducing the new input, it doesn't switch from array2 to array1 because array1.length is bigger than 0.
+
+- EXTRA: Make it responsive
