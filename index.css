@@ -23,6 +23,28 @@ input:focus {
 	outline: none;
 }
 
+#container {
+	width: 99%;
+}
+
+.head {
+	display: inline-block;
+	margin: 1% auto;
+	font-size: 0.3em;
+}
+
+.head h1 {
+	display: inline-block;
+	margin: 3px 3px 0 0;
+	padding: 3px 10px auto auto;
+}
+
+.head input {
+	font-size: 2em;
+	display: inline-block;
+	padding: 3px 0 0 0;
+}
+
 footer {
 	color: #999;
 	vertical-align: text-bottom;
@@ -35,7 +57,7 @@ footer {
 
 footer div {
 	display: inline-block;
-	margin: auto 10%;
+	margin: auto 5%;
 }
 
 a {
@@ -49,4 +71,5 @@ a {
 	font-size: 15px;
 	text-align: center;
 	letter-spacing: 1.2px;
+	margin-top: 12%;
 }
