@@ -1,6 +1,6 @@
 var value = document.getElementById("say");
 var show = document.getElementById("show");
-var container = document.getElementById("container");
+var main = document.getElementById("main");
 var arr1 = [];
 var arr2 = [];
 
@@ -12,8 +12,9 @@ function play() {
 			console.log(arr1);
 			show.innerHTML = value.value;
 			value.value = "";
-			console.log(container);
-			container.classList.add("head");
+			console.log(main);
+			main.classList.remove("main");
+			main.classList.add("head");
 		}
 	});
 }
