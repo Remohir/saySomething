@@ -36,17 +36,17 @@ function play() {
 }
 
 function display() {
-	newNumber = Math.floor(Math.random() * arr1.length);
-	if(newNumber != number) {
-		number = newNumber;
-	} else {
-		if(newNumber != (arr1.length - 1)) {
-			number = newNumber + 1;
-		} else {
-			number = 0;
-		}
+	temp = arr1.length
+	if(temp == 0) {
+		arr1 = arr2;
+		arr2 = [];
+		temp = arr1.length;
 	}
-	show.innerHTML = arr1[number];
+
+	newNumber = Math.floor(Math.random() * temp);
+	show.innerHTML = arr1[newNumber];
+	arr2.push(arr1[newNumber]);
+	arr1.splice(newNumber, 1);	
 }
 
 function keepPushing(e) {
